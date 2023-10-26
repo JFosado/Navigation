@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/primary_color">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:src="@drawable/logotic"
+        android:id="@+id/iv_logo"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_username"
+        android:hint="@string/username_value"
+        android:drawableStart="@drawable/person"
+        android:drawablePadding="12dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_password"
+        android:hint="@string/password_value"
+        android:drawableStart="@drawable/lock"
+        android:drawablePadding="12dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_value"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_login"
+        android:backgroundTint="@color/secondary_color"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_take_picture"
+        android:text="@string/take_picture_value"
+        android:backgroundTint="@color/secondary_color"
+        android:drawableTop="@drawable/camera"/>
+
+
+</LinearLayout>

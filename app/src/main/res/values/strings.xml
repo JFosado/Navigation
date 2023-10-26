@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="username_value">Username</string>
+    <string name="password_value">Password</string>
+    <string name="login_value">Iniciar Sesion</string>
+    <string name="welcome_value">Bienvenido</string>
+    <string name="take_picture_value">Tomar Foto</string>
+</resources>
